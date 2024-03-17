@@ -32,10 +32,7 @@ const  App: React.FC = ()=> {
 
       <ListTask todos={todos} setTodos={setTodos}/>
       
-      {/* {todos.map((t)=>(
-        <li>{t.todo}</li>
-
-      ))} */}
+    
 
     </div>
   );
